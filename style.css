@@ -1,0 +1,47 @@
+@font-face{
+    font-family: sans-serif;
+    src: 
+}
+body{
+    background-image: url(images/black1.jpg);
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+}
+#nav li {
+    float: left;
+}
+#nav li a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 14px 18px;
+    text-decoration: none
+}
+#nav li a:hover {
+    background-color: #111;
+    color: #00a1ff;
+}
+#nav li a:active {
+    background-color: pink;
+    color: black;
+}
+div {
+    border: solid 3px;
+    margin: 50px;
+    padding: 70px;
+    text-align: center;
+}
+#notes li a {
+    color: white;
+}
