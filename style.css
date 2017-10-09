@@ -1,9 +1,9 @@
 @font-face{
-    font-family: sans-serif;
-    src: 
+    font-family: hello;
+    src: url(bold1/font2.ttf);
 }
 body{
-    background-image: url(images/black1.jpg);
+    background-image: url(images/snowbackground1.jpg);
     background-repeat: no-repeat;
     background-color: #ffffff;
     background-size: 100%;
